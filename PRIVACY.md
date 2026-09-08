@@ -50,8 +50,7 @@ Each request contains:
 - which weather variables are wanted, and for which date range
 - unit preferences (Fahrenheit, miles per hour, local time zone)
 
-That is the entire request. It is built in one function, `build_params()` in
-`src/weather.py`, so the claim is short enough to verify by reading it.
+That is the entire request.
 
 Like any internet request, it also reveals your device's IP address to
 Open-Meteo, which is unavoidable for any app that fetches anything. I mention
